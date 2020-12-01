@@ -1,3 +1,7 @@
-# installer
+# Installer
 
-Releases mirror for the wpgitupdater package
+Installer repo for the wpgitupdater package.
+
+# Usage
+
+`curl https://wpgitupdater.github.io/installer/install.sh | bash -s -- -b $HOME/bin`
