@@ -1,0 +1,17 @@
+name: Update Installer
+
+on: workflow_dispatch
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Update installer
+        run: |
+          ./mirror.sh
+          git add -A .
+          git commit -a -m "chore(installer): Update installer file"
+          git push
