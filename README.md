@@ -4,4 +4,4 @@ Installer repo for the `wpgitupdater` package.
 
 # Usage
 
-`curl https://wpgitupdater.github.io/installer/install.sh | bash -s -- -b $HOME/bin`
+`curl https://install.wpgitupdater.dev/install.sh | bash -s -- -b $HOME/bin`
