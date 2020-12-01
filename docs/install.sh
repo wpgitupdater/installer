@@ -7,7 +7,6 @@ usage() {
   this=$1
   cat <<EOF
 $this: download go binaries for wpgitupdater/wpgitupdater
-$this: download go binaries for wpgitupdater/wpgitupdater
 
 Usage: $this [-b] bindir [-d] [tag]
   -b sets bindir or installation directory, Defaults to ./bin
