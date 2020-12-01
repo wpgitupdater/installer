@@ -12,6 +12,8 @@ jobs:
       - name: Update installer
         run: |
           ./mirror.sh
+          git config --global user.email "installerbot@wpgitupdater.dev"
+          git config --global user.name "WP Git Updater Installer Bot"
           git add -A .
           git commit -a -m "chore(installer): Update installer file"
           git push
