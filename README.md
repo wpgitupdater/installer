@@ -1,6 +1,6 @@
 # Installer
 
-Installer repo for the wpgitupdater package.
+Installer repo for the `wpgitupdater` package.
 
 # Usage
 
